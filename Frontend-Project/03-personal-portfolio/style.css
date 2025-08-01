@@ -1,0 +1,26 @@
+div {
+    & > span {
+        & > a {
+            &:hover {
+                color: green;
+            }
+        }
+    }
+}
+
+nav {
+    & > ul {
+        & > li {
+            & > a {
+                & {
+                    color: gray;
+                    
+                }
+            }
+        }
+    }
+}
+
+& {
+    color: green;
+}
