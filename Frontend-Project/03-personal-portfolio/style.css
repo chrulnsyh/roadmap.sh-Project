@@ -1,26 +1,14 @@
-div {
-    & > span {
-        & > a {
-            &:hover {
-                color: green;
-            }
-        }
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-nav {
-    & > ul {
-        & > li {
-            & > a {
-                & {
-                    color: gray;
-                    
-                }
-            }
-        }
-    }
-}
-
-& {
-    color: green;
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(to right, #111, #000);
+    padding: 1rem 2rem;
+    gap: 2rem;
 }
